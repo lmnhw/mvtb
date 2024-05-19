@@ -17,7 +17,7 @@ class SavedBooking extends StatelessWidget {
         backgroundColor: Styles.appBarColor,
         centerTitle: true,
         automaticallyImplyLeading: true,
-        title: const Text('Daftar Film', style: TextStyle(fontWeight: FontWeight.w700),),
+        title: const Text('Danh sách phim', style: TextStyle(fontWeight: FontWeight.w700),),
       ),
       body: Column(
         children: [
@@ -50,7 +50,7 @@ class SavedBooking extends StatelessWidget {
                         horizontal: 10,
                         vertical: 6
                       ),
-                      child: Text('Akan Datang', style: TextStyle(color: Colors.white.withOpacity(0.7), fontSize: 12),),
+                      child: Text('Phim sắp chiếu', style: TextStyle(color: Colors.white.withOpacity(0.7), fontSize: 12),),
                     ),
                   ],
                 ),
@@ -93,11 +93,11 @@ class SavedBooking extends StatelessWidget {
                                   children: [
                                     Text('P-G', style: TextStyle(color: Colors.white.withOpacity(0.35), fontSize: 12),),
                                     const Gap(4),
-                                    Text('13+', style: TextStyle(color: Colors.white.withOpacity(0.8), fontSize: 12, fontWeight: FontWeight.bold),),
+                                    Text('Mọi lứa tuổi', style: TextStyle(color: Colors.white.withOpacity(0.8), fontSize: 12, fontWeight: FontWeight.bold),),
                                   ],
                                 ),
                                 const Gap(5),
-                                Text('Action, Sci-fi', style: TextStyle(color: Colors.white.withOpacity(0.35), fontSize: 12, fontWeight: FontWeight.bold),),
+                                Text('Hoạt hình, Phiêu lưu', style: TextStyle(color: Colors.white.withOpacity(0.35), fontSize: 12, fontWeight: FontWeight.bold),),
                                 const Spacer(),
                                 ElevatedButton(
                                   child: const Text('Đặt vé', style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500),),

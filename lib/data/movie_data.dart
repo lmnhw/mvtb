@@ -9,7 +9,12 @@ List<Map<String, dynamic>> movieData = [
   {
     'image': Styles.imagePath('star_wars.png'),
     'title': 'Star Wars : The Last',
-    'star': 4.5
+    'star': 4.1
+  },
+  {
+    'image': Styles.imagePath('latmat7.png'),
+    'title': 'Lật mặt 7 : Một điều ước',
+    'star': 4.3
   },
   {
     'image': Styles.imagePath('fast&furious.png'),

@@ -17,7 +17,7 @@ class BookingPage extends StatelessWidget {
         backgroundColor: Styles.appBarColor,
         centerTitle: true,
         automaticallyImplyLeading: true,
-        title: const Text('Doraemon - Bản giao hưởng địa cầu', style: TextStyle(fontWeight: FontWeight.w700),),
+        title: const Text('Doraemon - Bản\n giao hưởng địa cầu', style: TextStyle(fontWeight: FontWeight.w700),),
       ),
       body: ListView(
         children: [
@@ -49,7 +49,7 @@ class BookingPage extends StatelessWidget {
               children: [
                 const SvgIcon(assetName: 'search'),
                 const Gap(10),
-                Text('Cari Bioskop', style: TextStyle(color: Colors.white.withOpacity(0.3)),)
+                Text('Tìm rạp', style: TextStyle(color: Colors.white.withOpacity(0.3)),)
               ],
             ),
           ),
@@ -68,7 +68,7 @@ class BookingPage extends StatelessWidget {
                           color: Colors.white
                       ),
                       child: index == 2 ? const SizedBox() : Image.asset(Styles.imagePath('cgv.png'))),
-                  title: Text(index == 2 ? 'XXI Pamulang Barat' : 'CGV Pamulang Barat', style: const TextStyle(fontWeight: FontWeight.w700, color: Colors.white),),
+                  title: Text(index == 2 ? 'Đà Nẵng' : 'CGV Vincom Đà Nẵng', style: const TextStyle(fontWeight: FontWeight.w700, color: Colors.white),),
                   collapsedIconColor: Colors.white,
                   iconColor: Styles.highlightColor,
                   children: [
@@ -86,8 +86,8 @@ class BookingPage extends StatelessWidget {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text('Regular', style: TextStyle(color: Colors.white.withOpacity(0.8)),),
-                              Text('Rp. 50.000', style: TextStyle(color: Colors.white.withOpacity(0.8)),),
+                              Text('Ghế thường', style: TextStyle(color: Colors.white.withOpacity(0.8)),),
+                              Text('50.000', style: TextStyle(color: Colors.white.withOpacity(0.8)),),
                             ],
                           ),
                           const Gap(10),

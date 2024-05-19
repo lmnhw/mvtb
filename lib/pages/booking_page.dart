@@ -24,7 +24,7 @@ class BookingPage extends StatelessWidget {
           CalendarTimeline(
             initialDate: DateTime.now(),
             firstDate: DateTime(2019, 1, 15),
-            lastDate: DateTime(2022, 11, 20),
+            lastDate: DateTime(2024, 11, 20),
             onDateSelected: (date) => log(date.toString()),
             leftMargin: 20,
             monthColor: Colors.white.withOpacity(0.6),
@@ -67,8 +67,8 @@ class BookingPage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(8),
                           color: Colors.white
                       ),
-                      child: index == 2 ? const SizedBox() : Image.asset(Styles.imagePath('cgv.png'))),
-                  title: Text(index == 2 ? 'Đà Nẵng' : 'CGV Vincom Đà Nẵng', style: const TextStyle(fontWeight: FontWeight.w700, color: Colors.white),),
+                      child: index == 0 ? const SizedBox() : Image.asset(Styles.imagePath('cgv.png'))),
+                  title: Text(index == 1 ? 'CGV Vĩnh Trung Plaza' : 'CGV Vincom Đà Nẵng' , style: const TextStyle(fontWeight: FontWeight.w700, color: Colors.white),),
                   collapsedIconColor: Colors.white,
                   iconColor: Styles.highlightColor,
                   children: [
@@ -87,7 +87,7 @@ class BookingPage extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text('Ghế thường', style: TextStyle(color: Colors.white.withOpacity(0.8)),),
-                              Text('50.000', style: TextStyle(color: Colors.white.withOpacity(0.8)),),
+                              Text('85.000', style: TextStyle(color: Colors.white.withOpacity(0.8)),),
                             ],
                           ),
                           const Gap(10),
@@ -100,7 +100,7 @@ class BookingPage extends StatelessWidget {
                                     borderRadius: BorderRadius.circular(5),
                                     color: Color(index == 0 ? 0xFF25222D : index == 1 ? 0xFF6255A7 : 0xFF474659)
                                 ),
-                                child: Text('16:00', style: TextStyle(color: index == 0 ? Colors.white.withOpacity(0.4) : Colors.white),),
+                                child: Text('20:00', style: TextStyle(color: index == 0 ? Colors.white.withOpacity(0.4) : Colors.white),),
                               );
                             }),
                           ),

@@ -91,13 +91,13 @@ class SavedBooking extends StatelessWidget {
                                 const Gap(15),
                                 Row(
                                   children: [
-                                    Text('P-G', style: TextStyle(color: Colors.white.withOpacity(0.35), fontSize: 12),),
+                                    Text('', style: TextStyle(color: Colors.white.withOpacity(0.35), fontSize: 12),),
                                     const Gap(4),
-                                    Text('Mọi lứa tuổi', style: TextStyle(color: Colors.white.withOpacity(0.8), fontSize: 12, fontWeight: FontWeight.bold),),
+                                    Text('', style: TextStyle(color: Colors.white.withOpacity(0.8), fontSize: 12, fontWeight: FontWeight.bold),),
                                   ],
                                 ),
                                 const Gap(5),
-                                Text('Hoạt hình, Phiêu lưu', style: TextStyle(color: Colors.white.withOpacity(0.35), fontSize: 12, fontWeight: FontWeight.bold),),
+                                Text('', style: TextStyle(color: Colors.white.withOpacity(0.35), fontSize: 12, fontWeight: FontWeight.bold),),
                                 const Spacer(),
                                 ElevatedButton(
                                   child: const Text('Đặt vé', style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500),),
